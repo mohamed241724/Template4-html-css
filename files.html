@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is template four">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;800;900;1000&family=Lato:wght@300;400;700;900&family=Lobster&family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;600&display=swap" rel="stylesheet">
+    <title>Files</title>
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative mt-0 txt-c">Fouad</h3>
+            <ul>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-solid fa-bars fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-brands fa-discourse fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-solid fa-paper-plane fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- start head -->
+            <div class="head p-15 bg-white between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Search">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-solid fa-bell fa-lg"></i>
+                    </span>
+                    <img src="images/profile.jpg" alt="photo">
+                </div>
+            </div>
+            <!-- end head -->
+            <h1 class="p-relative">Files</h1>
+            <div class="files-page d-flex m-20 gap-20">
+                <div class="files-stats rad-10 bg-white p-20">
+                    <h2 class="mt-0 mb-15 txt-c-mobile">Files Statistics</h2>
+                    <div class="d-flex align-center p-10 mb-15 rad-6 border-ccc fs-13">
+                        <i class="fa-regular fa-file-pdf fa-lg icon c-red center-flex"></i>
+                        <div class="info">
+                            <span class="fw-bold">PDF Files</span>
+                            <span class="c-grey d-block mt-5">130</span>
+                        </div>
+                        <div class="size c-grey">7.5GB</div>
+                    </div>
+                    <div class="d-flex align-center p-10 mb-15 rad-6 border-ccc fs-13">
+                        <i class="fa-regular fa-file-word fa-lg c-blue center-flex icon"></i>
+                        <div class="info">
+                            <span class="fw-bold">Word Files</span>
+                            <span class="c-grey d-block mt-5">110</span>
+                        </div>
+                        <div class="size c-grey">1.6GB</div>
+                    </div>
+                    <div class="d-flex align-center p-10 mb-15 rad-6 border-ccc fs-13">
+                        <i class="fa-regular fa-file-excel fa-lg c-green center-flex icon"></i>
+                        <div class="info">
+                            <span class="fw-bold">Images Files</span>
+                            <span class="c-grey d-block mt-5">30</span>
+                        </div>
+                        <div class="size c-grey">3.4GB</div>
+                    </div>
+                    <div class="d-flex align-center p-10 mb-15 rad-6 border-ccc fs-13">
+                        <i class="fa-solid fa-file-csv fa-lg c-orange center-flex icon"></i>
+                        <div class="info">
+                            <span class="fw-bold">CSV Files</span>
+                            <span class="c-grey d-block mt-5">130</span>
+                        </div>
+                        <div class="size c-grey">5GB</div>
+                    </div>
+                    <a class="upload bg-green c-white fs-13 rad-6 d-block w-fit btn-shape" href="#">Upload</a>
+                </div>
+                <div class="files-content d-grid gap-20">
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/pdf.svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.pdf</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>16/4/2023</span>
+                            <span>20MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/ai-svgrepo-com (1).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.svg</div>
+                        <p class="c-grey fs-13">Ahmed</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>6/4/2015</span>
+                            <span>22MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/ai-svgrepo-com (2).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.ai</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>7/4/2005</span>
+                            <span>24MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/ai-svgrepo-com.svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.doc</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>5/4/2009</span>
+                            <span>26MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/folder-svgrepo-com (1).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.pdf</div>
+                        <p class="c-grey fs-13">Ahmed</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>3/4/2002</span>
+                            <span>28MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/folder-svgrepo-com (2).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.ai</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>16/4/2020</span>
+                            <span>23MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/folder-svgrepo-com (3).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.ai</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>16/4/2020</span>
+                            <span>25MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/folder-svgrepo-com (4).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.pdf</div>
+                        <p class="c-grey fs-13">Ahmed</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>23/4/2021</span>
+                            <span>27MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/folder-svgrepo-com.svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.pdf</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>21/12/2020</span>
+                            <span>29MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/outbox-svgrepo-com.svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.svg</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>12/11/2020</span>
+                            <span>15MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/pdf-svgrepo-com (1).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.doc</div>
+                        <p class="c-grey fs-13">Ahmed</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>13/10/2020</span>
+                            <span>65MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/pdf-svgrepo-com (2).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.svg</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>11/9/2020</span>
+                            <span>74MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/pdf-svgrepo-com.svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.pdf</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>18/8/2020</span>
+                            <span>25MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/ps-svgrepo-com (1).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.pdf</div>
+                        <p class="c-grey fs-13">Ahmed</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>19/7/2020</span>
+                            <span>96MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/ps-svgrepo-com (2).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.ps</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>17/6/2020</span>
+                            <span>10MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/ps-svgrepo-com.svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.ps</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>13/5/2020</span>
+                            <span>31MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/folder-svgrepo-com (2).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.svg</div>
+                        <p class="c-grey fs-13">Ahmed</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>18/3/2020</span>
+                            <span>74MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/ai-svgrepo-com (2).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.ai</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>17/2/2020</span>
+                            <span>57MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/folder-svgrepo-com (1).svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.svg</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>16/1/2020</span>
+                            <span>68MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img class="mt-15 mb-15" src="images/svg/pdf-svgrepo-com.svg" alt="photo">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">My-File.pdf</div>
+                        <p class="c-grey fs-13">Fouad</p>
+                        <div class="info between-flex mt-10 mb-10 p-10 fs-13 c-grey">
+                            <span>16/4/2020</span>
+                            <span>20MB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <footer class="bg-alt-green p-20 d-flex align-center">
+        <div class="logo c-white fw-bold mt-20 p-10">Fouad</div>
+        <div class="icon mt-20 p-10">
+            <ul>
+                <li>
+                    <a href="#" class="facebook">
+                        <i class="fab fa-facebook-f c-blue fs-20 mt-15"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="whatsapp">
+                        <i class="fa-brands fa-square-whatsapp c-green fs-20 mt-15"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="twitter">
+                        <i class="fab fa-twitter c-alt-blue fs-20 mt-15"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="youtube">
+                        <i class="fab fa-youtube c-red fs-20 mt-15"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <span class="c-white fs-13 fw-bold">
+            Made With Love By Fouad All Rights Reserved
+            <i class="fa-regular fa-copyright fs-13 ml-1"></i>
+        </span>
+    </footer>
+</body>
+</html>       
